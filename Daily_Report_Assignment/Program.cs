@@ -25,14 +25,14 @@ namespace Daily_Report_Assignment
             int PageNumber = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Do you need help with anything? Please Answer  \" true\"or \" false ");
             string needAnything = Console.ReadLine();
-            bool needHelp =  bool.Parse(Console.ReadLine());
+            bool needHelp =  bool.Parse(needAnything);
             Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics.");
             string giveSpecifics = Console.ReadLine();
             Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific");
             string feedBack = Console.ReadLine();
             string hoursStudy = Console.ReadLine();
-            int hoursStudyQTY = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Thank you for your answers. An Instructor will respond shortly. Have a great day!")
+            int hoursStudyNum = Convert.ToInt32(hoursStudy);
+            Console.WriteLine("Thank you for your answers. An Instructor will respond shortly. Have a great day!");
 
 
         }
